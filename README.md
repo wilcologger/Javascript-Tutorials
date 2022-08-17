@@ -1,6 +1,6 @@
 # Javascript Tutorials
 
-What is the purpes of this repository?
+What is the purpose of this repository?
 1. To show the basics.
 2. To Lean and develop my skills.
 3. To make pure javascript projects (Future project)
