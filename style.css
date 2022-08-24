@@ -1,0 +1,7 @@
+.toggleBody {
+    display: none;
+}
+
+.toggleBody.show {
+    display: block;
+}
