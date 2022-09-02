@@ -1,7 +1,7 @@
-.toggleBody {
+.collapse {
     display: none;
 }
 
-.toggleBody.show {
+.collapse.show {
     display: block;
 }
