@@ -2,7 +2,7 @@
  * Arrow functions
  */
 
-let sum = (a, b) => a + b;
+let sum = (a, b) =>  a + b;
 
 /* This arrow function is a shorter form of:
 
@@ -46,4 +46,10 @@ alert( sum(1, 2) ); // 3
 
 let ask = (question, yes, no) => confirm(question) ? yes(alert("You agreed.");) : no(alert("You canceled the execution."));
 
-alert( "Do you agree?", ask() );
+alert("Do you agree?", ask());
+
+// oefenen
+
+let wilco = (a, b) => a + b;
+
+let wilco = (a, b) => {return a + b }
