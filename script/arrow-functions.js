@@ -44,12 +44,10 @@ alert( sum(1, 2) ); // 3
  * 
  */
 
-let ask = (question, yes, no) => confirm(question) ? yes(alert("You agreed.");) : no(alert("You canceled the execution."));
+let ask = (question, yes, no) => confirm(question) ? yes(alert("You agreed.")) : no(alert("You canceled the execution."));
 
 alert("Do you agree?", ask());
 
-// oefenen
-
-let wilco = (a, b) => a + b;
-
-let wilco = (a, b) => {return a + b }
+// oefenen wat het verschil is.
+let wilco = (a, b) => a + b; console.log( wilco(1,2) );
+let wilco = (a, b) => { return a + b }; console.log( wilco());
