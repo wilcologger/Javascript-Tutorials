@@ -29,8 +29,8 @@
  * Objects in JavaScript are very powerful. Here we’ve just scratched the surface of a topic that is really huge. We’ll be closely working with objects and learning more about them in further parts of the tutorial.
  */
 
-let user = new Object(); // "object constructor" syntax
-let user = {};  // "object literal" syntax
+let objOne = new Object(); // "object constructor" syntax
+let objTwo = {};  // "object literal" syntax
 
 /**
  * TASK 1
